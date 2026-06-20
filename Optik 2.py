@@ -114,7 +114,7 @@ if jawab.lower() == ('ya'):
     elif jawab2.lower() == ('m+'):
         print("Menghitung perbesaran bayangan (M), jarak bayangan (s') atau tinggi bayangan (y'), dan jarak benda (s) atau tinggi benda (y)")
         rumus3 = input()
-        if rumus3.lower() == ('M'):
+        if rumus3.lower() == ('m'):
             print("Masukkan nilai:")
             s_5= float(input("s' = "))
             s5 = float(input("s = "))
@@ -155,7 +155,7 @@ if jawab.lower() == ('ya'):
             if tampil_gambar6.lower() == ("ya"):
                 print("Masukkan fokus (f)")
                 f_hitung3 = float(input("f = "))
-                diagram_sinar(f_hitung3, y2, y_2, m2)
+                diagram_sinar(f_hitung3, y2, y_2, m3)
             else:
                 print("Terima kasih")
         else:
