@@ -31,8 +31,8 @@ def diagram_sinar(f,s,s_aksen,m_perbesaran,h = 3):
     plt.legend(loc='upper left')
     plt.show()
 
-#Menghitung Cermin Cekung
-print("Menghitung Jarak Benda pada Cermin Cekung? (ya/tidak)")
+#Menghitung Cermin Cekung dan Cembung
+print("Menghitung Jarak Benda pada Cermin Cekung (ya/tidak)")
 jawab = input()
 print('')
 
