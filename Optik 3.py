@@ -15,6 +15,7 @@ if jawab.lower() == ('ya'):
         f1 = float(input("f = (cm)"))
         p1 = 100/f1
         print("Kekuatan lensanya adalah:",round(f1,2))
+    #Menghitung fokus dari kekuatan lensa
     elif jawab2.lower() == ('f'):
         print("Masukkan nilai: ")
         p2 = float(input("p = "))
